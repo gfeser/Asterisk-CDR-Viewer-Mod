@@ -1,3 +1,5 @@
 inc/config/basic_auth_htpassword
 inc/config/*.php
 TODO.txt
+*.mp3
+*.wav
