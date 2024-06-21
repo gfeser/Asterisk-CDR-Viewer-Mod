@@ -12,7 +12,7 @@
 <tr>
 <td>
 
-<form method="post" enctype="application/x-www-form-urlencoded" action="">
+<form id="mainform" method="post" enctype="application/x-www-form-urlencoded" action="">
 <fieldset>
 <legend class="title">Просмотр записей о совершенных звонках</legend>
 <table width="100%">
@@ -150,7 +150,7 @@ foreach ($months as $i => $month) {
 	<option value="3w">Последние 3 недели</option>
 	<option value="tm">Текущий месяц</option>
 	<option value="pm">Предыдущий месяц</option>
-	<option value="3m">Последние 3 месяца</option>
+	<option value="3m" selected>Последние 3 месяца</option>
 </select>
 </td>
 <td rowspan="13" valign='top' align='right'>

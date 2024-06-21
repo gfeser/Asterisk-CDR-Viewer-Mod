@@ -2,7 +2,7 @@
 $(document).on('ready', function() {
 	initClipboard();
 	selectRange( $('#id_range').val() );
-	
+
 	// Стрелки навигации
 	$('#scroll-box').on('click', '#scroll-up', function() {
 		$('html, body').animate({ scrollTop: 0 }, 100);
@@ -262,6 +262,7 @@ $(document).on('ready', function() {
 		});
 	}
 	
+	$("#form_submit").click()
 });
 
 // Показать навигацию
